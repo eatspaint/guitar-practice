@@ -3,6 +3,7 @@ import { styled } from "../styles/theme";
 
 const TabStaff = styled("pre", {
   lineHeight: 1.1,
+  userSelect: "none",
 });
 
 // Note duration options
