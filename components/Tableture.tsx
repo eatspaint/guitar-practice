@@ -49,7 +49,7 @@ export const Tableture = ({
   let sustain = 0;
   let rhythmIdx = 0;
   for (let n = 0; n < steps; n++) {
-    let event: Tableture["sequence"][number];
+    let event: Sequence[number];
 
     if (sustain === 0) {
       event = sequence[rhythmIdx];
