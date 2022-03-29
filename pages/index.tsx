@@ -12,7 +12,7 @@ const Container = styled("div", {
   alignContent: "center",
   margin: "0 auto",
   padding: "2rem",
-  height: "100%",
+  minHeight: "100%",
 });
 
 enum Exercise {
